@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>link-and-images</title>
+</head>
+<body>
+    <h1>Homepage</h1>
+    <a href="https://www.theodinproject.com/home">About The Odin Project</a>
+    <h1> 将github项目与本机电脑相连</h1>
+    <ol>
+        <li>打开github项目</li>
+        <li>点击Code按钮</li>
+        <li>复制项目链接</li>
+        <li>打开git bash</li>
+        <li>输入命令：git clone 复制的项目链接</li>
+        <li>等待项目下载完成</li>
+        <li>打开项目文件夹</li>
+        <li>在git bash中输入命令：git status</li>
+        <li>如果显示：On branch master Your branch is up to date with 'origin/master'. 说明已经连接成功</li>
+        <li>如果显示：fatal: Not a git repository (or any of the parent directories): .git 说明还没有连接成功，需要先进行连接</li>
+        <li>在git bash中输入命令：git remote add origin 复制的项目链接</li>
+        <li>在git bash中输入命令：git push -u origin master</li>
+        <li>等待项目上传完成</li>
+        <li>打开本机电脑的github项目，点击Pull requests按钮，点击New pull request按钮，选择master分支，点击Create pull request按钮，等待项目合并完成</li>
+        <li>恭喜你，你已经成功将github项目与本机电脑相连</li>
+    </ol>
+    
+</body>
+</html>
